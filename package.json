@@ -1,0 +1,22 @@
+{
+  "name": "discord-music-bot",
+  "version": "1.0.0",
+  "description": "A lightweight Discord bot for playing YouTube music",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["discord", "bot", "music", "youtube"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "@discordjs/voice": "^0.17.0",
+    "ytdl-core": "^4.11.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
