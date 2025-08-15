@@ -30,11 +30,13 @@ A lightweight Discord bot for playing YouTube music in voice channels.
 
 1. Clone this repository
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Create a Discord Application and Bot:
+
    - Go to https://discord.com/developers/applications
    - Create a new application
    - Go to the "Bot" section
@@ -44,6 +46,7 @@ A lightweight Discord bot for playing YouTube music in voice channels.
      - Server Members Intent
 
 4. Set up environment variables:
+
    - Copy `.env.example` to `.env`
    - Add your Discord bot token to the `.env` file
 

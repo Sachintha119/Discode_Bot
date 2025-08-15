@@ -3,16 +3,19 @@
 ## Quick Start
 
 1. **Create a Discord Application:**
+
    - Go to https://discord.com/developers/applications
    - Click "New Application" and give it a name
    - Go to the "Bot" section and click "Add Bot"
    - Copy the bot token
 
 2. **Set up the bot token:**
+
    - Open the `.env` file in this directory
    - Replace `your_discord_bot_token_here` with your actual bot token
 
 3. **Invite the bot to your server:**
+
    - In the Discord Developer Portal, go to OAuth2 > URL Generator
    - Select "bot" scope
    - Select these permissions:
@@ -24,6 +27,7 @@
    - Select your server and authorize
 
 4. **Install FFmpeg (Required for audio):**
+
    - Download from: https://ffmpeg.org/download.html
    - Add FFmpeg to your system PATH
    - Or use chocolatey: `choco install ffmpeg`
@@ -51,10 +55,12 @@
 ## Troubleshooting
 
 1. **Bot doesn't respond:**
+
    - Check if the bot token is correct
    - Make sure "Message Content Intent" is enabled in Discord Developer Portal
 
 2. **Audio doesn't play:**
+
    - Ensure FFmpeg is installed and in PATH
    - Check voice channel permissions
 
